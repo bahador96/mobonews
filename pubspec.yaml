@@ -1,0 +1,81 @@
+name: news
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  hexcolor: ^2.0.6
+  scroll_snap_list: ^0.9.1
+  
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+ 
+ 
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  
+  uses-material-design: true
+
+ 
+  assets:
+    - images/
+
+
+  
+  fonts:
+    - family: SR
+      fonts:
+        - asset: assets/fonts/Shabnam.ttf
+          weight: 400
+
+    - family: SM
+      fonts:
+        - asset: assets/fonts/Shabnam-Medium.ttf
+          weight: 500
+
+    - family: SB
+      fonts:
+        - asset: assets/fonts/Shabnam-Bold.ttf
+          weight: 700
+
+    - family: SG
+      fonts:
+        - asset: assets/fonts/Shabnam-Bold.ttf
+          weight: 800
+
+    - family: ST
+      fonts:
+        - asset: assets/fonts/Shabnam-Thin.ttf
+          weight: 100
+
+    - family: SB
+      fonts:
+        - asset: assets/fonts/Shabnam-Light.ttf
+          weight: 300
+ 
+ 
